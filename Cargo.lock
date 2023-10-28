@@ -608,54 +608,6 @@ dependencies = [
 ]
 
 [[package]]
-name = "embassy-rp-project"
-version = "0.1.0"
-dependencies = [
- "byte-slice-cast 1.2.2",
- "cortex-m",
- "cortex-m-rt",
- "cyw43",
- "cyw43-pio",
- "defmt",
- "defmt-rtt",
- "display-interface",
- "display-interface-spi",
- "embassy-embedded-hal",
- "embassy-executor",
- "embassy-futures",
- "embassy-lora",
- "embassy-net",
- "embassy-net-wiznet",
- "embassy-rp",
- "embassy-sync",
- "embassy-time",
- "embassy-usb",
- "embassy-usb-logger",
- "embedded-graphics",
- "embedded-hal 1.0.0-rc.1",
- "embedded-hal-async",
- "embedded-hal-bus",
- "embedded-io-async",
- "embedded-storage",
- "fixed",
- "fixed-macro",
- "futures",
- "heapless",
- "log",
- "lora-phy",
- "lorawan",
- "lorawan-device",
- "panic-probe",
- "pio",
- "pio-proc",
- "rand",
- "smart-leds",
- "st7789",
- "static_cell",
- "usbd-hid",
-]
-
-[[package]]
 name = "embassy-sync"
 version = "0.3.0"
 dependencies = [
@@ -1500,6 +1452,54 @@ name = "rand_core"
 version = "0.6.4"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "ec0be4795e2f6a28069bec0b5ff3e2ac9bafc99e6a9a7dc3547996c5c816922c"
+
+[[package]]
+name = "rapad"
+version = "0.1.0"
+dependencies = [
+ "byte-slice-cast 1.2.2",
+ "cortex-m",
+ "cortex-m-rt",
+ "cyw43",
+ "cyw43-pio",
+ "defmt",
+ "defmt-rtt",
+ "display-interface",
+ "display-interface-spi",
+ "embassy-embedded-hal",
+ "embassy-executor",
+ "embassy-futures",
+ "embassy-lora",
+ "embassy-net",
+ "embassy-net-wiznet",
+ "embassy-rp",
+ "embassy-sync",
+ "embassy-time",
+ "embassy-usb",
+ "embassy-usb-logger",
+ "embedded-graphics",
+ "embedded-hal 1.0.0-rc.1",
+ "embedded-hal-async",
+ "embedded-hal-bus",
+ "embedded-io-async",
+ "embedded-storage",
+ "fixed",
+ "fixed-macro",
+ "futures",
+ "heapless",
+ "log",
+ "lora-phy",
+ "lorawan",
+ "lorawan-device",
+ "panic-probe",
+ "pio",
+ "pio-proc",
+ "rand",
+ "smart-leds",
+ "st7789",
+ "static_cell",
+ "usbd-hid",
+]
 
 [[package]]
 name = "redox_syscall"
